@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="navbar">
+        <div class="logo">
+          <h1><a href="">SamuelNay</a></h1>
+          <div class="menu">
+            <img src="toppng.com-menu-icon-png-3-lines-2400x2008.png" alt="" />
+          </div>
+        </div>
+        <nav class="nav">
+          <div class="imgCancer">
+            <img src="5630708-removebg-preview.png" alt="" />
+          </div>
+          <ul>
+            <li><a href="">Acceuil</a></li>
+            <li><a href="A_propos_de_nous.html">A propos de nous</a></li>
+            <li><a href="produits.html">Nos produits</a></li>
+            <li class="contact"><a href="#sc4">Nous contacter</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="section1">
+      <div class="titre">
+        <h2>
+          SamuelNay patisserie,<br />
+          toujours au rendez-vous
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio
+          voluptas nemo fuga, sapiente dolores eius praesentium incidunt hic
+          iure sunt? Nulla, eum esse. Adipisci laborum veritatis nihil
+          aspernatur culpa.
+        </p>
+        <button><a href="A_propos_de_nous.html">A propos de nous </a></button>
+      </div>
+    </section>
+
+    <section class="section2">
+      <div class="container-grille">
+        <div class="grille">
+          <img src="icons8-bakery-50.png" alt="boulangerie" />
+          <h2>BOULANGERIE</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aut
+            aspernatur obcaecati commodi nam, ut architecto amet nulla
+            perferendis
+          </p>
+          <button><a href="produits.html"> Voir les produits </a></button>
+        </div>
+        <div class="grille">
+          <img src="icons8-cake-50.png" alt="cake" />
+          <h2>GATEAUX</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aut
+            aspernatur obcaecati commodi nam, ut architecto amet nulla
+            perferendis
+          </p>
+
+          <button><a href="produits.html"> Voir les produits </a></button>
+        </div>
+        <div class="grille last-grille">
+          <img src="icons8-cookie-50.png" alt="biscuits" />
+          <h2>BISCUITS</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aut
+            aspernatur obcaecati commodi nam, ut architecto amet nulla
+            perferendis
+          </p>
+
+          <button><a href="produits.html"> Voir les produits </a></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section3">
+      <div class="container" style="display: flex">
+        <div class="partie-gauche">
+          <img src="back.png" alt="" />
+        </div>
+        <div class="partie-droite">
+          <h2>Pain frais,<br />gateaux et viennoiseries</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo natus
+            et aliquid eum voluptate officia cum. Porro itaque nesciunt labore
+            velit, laboriosam asperiores qui esse alias mollitia incidunt facere
+            quaerat.
+          </p>
+          <div class="bouton">
+            <button><a href="produits.html"> Voir les produits </a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <style>
+      .section3 {
+        background-color: #e5e5e5;
+      }
+      .section3 .partie-gauche {
+        width: 50%;
+      }
+      .section3 .partie-droite {
+        width: 50%;
+      }
+      .section3 .partie-gauche img {
+        width: 100%;
+      }
+      .section3 .partie-droite {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 40px;
+        justify-content: center;
+        width: 50%;
+      }
+      .section3 .partie-droite h2 {
+        font-size: 60px;
+      }
+      .section3 .partie-droite p {
+        margin: 40px 0 80px;
+        line-height: 1.5;
+        font-size: 20px;
+      }
+      .section3 .partie-droite button {
+        font-size: 25px;
+        padding: 10px 25px;
+        border: none;
+        background: black;
+        color: white;
+        border-radius: 20px;
+        width: 50%;
+      }
+      .section3 .partie-droite button a {
+        color: white;
+      }
+      .section3 .partie-droite button:hover {
+        color: black;
+      }
+      .section3 .partie-droite button:active {
+        background-color: #d2c7c7;
+        color: black;
+      }
+      @media screen and (max-width: 1094px) {
+        .section3 {
+          padding: 50px;
+        }
+        .section3 .partie-droite h2 {
+          font-size: 40px;
+        }
+        .section3 .partie-droite button {
+          font-size: 15px;
+          padding: 10px 25px;
+          border: none;
+          background: black;
+          color: white;
+          border-radius: 20px;
+          width: 50%;
+        }
+        .section3 .partie-droite {
+          padding: 0;
+        }
+      }
+
+      @media screen and (max-width: 870px) {
+        .section3 .container {
+          flex-direction: column;
+        }
+        .section3 .partie-gauche {
+          width: auto;
+        }
+
+        .section3 .partie-droite {
+          text-align: center;
+          margin-top: 40px;
+          width: 100%;
+        }
+        .section3 .partie-droite button {
+          width: 100%;
+        }
+      }
+    </style>
+
+    <section class="section4" id="sc4">
+      <h2>Contactez-nous</h2>
+      <div class="contenu-section4">
+        <form>
+          <div class="contenu-form">
+            <div class="mail">
+              <label for="mail">Email</label>
+              <input
+                type="text"
+                id="mail"
+                required
+                placeholder="Entrez une adresse mail valide"
+              />
+            </div>
+            <div class="nom">
+              <label for="nom">Nom</label>
+              <input
+                type="text"
+                required
+                placeholder="Entrez votre nom complet"
+                id="nom"
+              />
+            </div>
+          </div>
+          <button type="submit">SOUMETTRE</button>
+        </form>
+
+        <div class="programme">
+          <div class="grille">
+            <h3>TROUVEZ-NOUS</h3>
+            <p>121 Cocody, 21 Avenue, Abidjan, NY 92103-9000</p>
+          </div>
+
+          <div class="grille horaires">
+            <h3>HEURES</h3>
+            <p>
+              <span>Du lundi au samedi</span> <br />
+              9h00-19h00 <br /><span>dimanche</span> <br />
+              10h-18
+            </p>
+          </div>
+
+          <div class="grille">
+            <h3>APPELEZ-NOUS</h3>
+            <p><a href="#">+225 0100660216</a></p>
+            <p><a href="#">+225 0554706471</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section about">
+          <h2>À Propos</h2>
+          <p>
+            Nous sommes une patisserie passionnée par le travail et la
+            determination a vouloir satisfaire nos clients
+          </p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-section links">
+          <h2>Liens Rapides</h2>
+          <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">A propos de nous</a></li>
+            <li><a href="#">Nos produits</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section contact">
+          <h2>Contact</h2>
+          <p><i class="fas fa-map-marker-alt"></i> Abidjan, Côte d'Ivoire</p>
+          <p><i class="fas fa-phone"></i> +225 0554706471</p>
+          <p><i class="fas fa-envelope"></i> contact@exemple.com</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 La maison | SamuelNay.</p>
+      </div>
+
+      <div id="map"></div>
+    </footer>
+
+    <style>
+      footer #map {
+        width: 100%;
+        height: 300px;
+      }
+    </style>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+    <!-- Inclure Leaflet.js -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+      // Initialiser la carte centrée sur Cocody
+      var map = L.map("map").setView([5.3599, -3.9784], 13);
+
+      // Ajouter le fond de carte OpenStreetMap
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution: "&copy; OpenStreetMap contributors",
+      }).addTo(map);
+
+      // Ajouter un marqueur sur Cocody
+      L.marker([5.3599, -3.9784])
+        .addTo(map)
+        .bindPopup("Cocody, Abidjan")
+        .openPopup();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
