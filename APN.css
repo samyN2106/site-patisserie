@@ -183,6 +183,9 @@ html {
   color: white;
   border-radius: 10px;
 }
+.section4 button a {
+  color: white;
+}
 
 .section4 button:hover {
   background-color: white;
@@ -459,8 +462,6 @@ footer {
     grid-gap: 30px;
   }
 }
-
-
 
 @media screen and (max-width: 1100px) {
   .section2 .contener {
